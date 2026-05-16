@@ -1,0 +1,20 @@
+Jan 10 10:01:11 server sshd[1001]: Accepted password for user1 from 192.168.1.10 port 55222 ssh2
+Jan 10 10:02:15 server sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/ls
+Jan 10 10:03:20 server sshd[1002]: Failed password for invalid user admin from 192.168.1.20 port 55223 ssh2
+Jan 10 10:03:25 server sshd[1003]: Failed password for invalid user admin from 192.168.1.20 port 55224 ssh2
+Jan 10 10:03:30 server sshd[1004]: Failed password for invalid user admin from 192.168.1.20 port 55225 ssh2
+Jan 10 10:03:35 server sshd[1005]: Failed password for invalid user admin from 192.168.1.20 port 55226 ssh2
+Jan 10 10:03:40 server sshd[1006]: Failed password for invalid user admin from 192.168.1.20 port 55227 ssh2
+Jan 10 10:04:00 server sshd[1007]: Invalid user test from 192.168.1.30
+Jan 10 10:04:10 server sshd[1008]: Invalid user oracle from 192.168.1.30
+Jan 10 10:04:20 server sshd[1009]: Invalid user postgres from 192.168.1.30
+Jan 10 10:04:30 server sshd[1010]: Invalid user guest from 192.168.1.30
+Jan 10 10:04:40 server sshd[1011]: Invalid user admin from 192.168.1.30
+Jan 10 10:04:50 server sshd[1012]: Invalid user root from 192.168.1.30
+Jan 10 10:05:00 server sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/whoami
+Jan 10 10:05:10 server sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/cat
+Jan 10 10:05:20 server sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/chmod
+Jan 10 10:05:30 server sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/systemctl
+Jan 10 10:05:40 server sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/bash
+Jan 10 10:06:00 server sshd[1013]: Accepted password for user2 from 192.168.1.15 port 55228 ssh2
+Jan 10 10:07:00 server sshd[1014]: pam_unix(sshd:session): session closed for user user2
